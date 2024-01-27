@@ -1,0 +1,12 @@
+[
+    {
+        "name": "KIR nude",
+        "prompt": "{prompt}, detailed photo of young nude woman, sagged tits, puffy nipples, pubic hair, tan lines, detailed skin",
+        "negative_prompt": "blur, brown nipples"
+    },
+	{
+        "name": "KIR Photo neg",
+        "prompt": "{prompt}",
+        "negative_prompt": "(octane render, render, semi-realistic, drawing, anime, bad photo, bad photography:1.3), (deformed hands, bad hands, bad fingers, deformed fingers, fused fingers:1.3), (worst quality, low quality, blurry:1.2), (bad teeth, deformed teeth, deformed lips:1.15), (bad anatomy, bad proportions:1.1), (deformed iris, deformed pupils), (deformed eyes, bad eyes), (deformed face, ugly face, bad face), morbid, mutilated, mutation, disfigured"
+    }
+]
