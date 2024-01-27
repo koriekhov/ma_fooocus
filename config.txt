@@ -1,0 +1,40 @@
+{
+    "path_outputs": "/content/gdrive/MyDrive/TMP/Pics/output",
+    "default_cfg_scale": 3.0,
+    "default_sample_sharpness": 2.0,
+    "default_styles": [
+        "Fooocus Sharp", 
+		"Fooocus Negative"
+    ],
+    "default_prompt_negative": "",
+    "default_prompt": "",
+    "default_performance": "Quality",
+    "default_advanced_checkbox": true,
+    "default_image_number": 2,
+    "checkpoint_downloads": {},
+    "lora_downloads": {},
+    "embeddings_downloads": {},
+    "available_aspect_ratios": [
+        "768*1024",
+	      "768*1344",
+        "768*1280",
+        "960*1088",
+	      "1024*768",
+        "1024*1024",
+        "1280*768",
+        "1344*768",
+        "1600*640"
+    ],
+    "default_aspect_ratio": "1024*1024",
+    "default_inpaint_engine_version": "v2.6",
+    "default_cfg_tsnr": 2.0,
+    "default_overwrite_step": -1,
+    "default_overwrite_switch": -1,
+    "example_inpaint_prompts": [
+        "highly detailed face",
+        "detailed girl face",
+        "detailed man face",
+        "detailed hand",
+        "beautiful eyes"
+    ]
+}
