@@ -612,12 +612,13 @@ def dump_default_english_config():
 
 
 # dump_default_english_config()
-
+custom_output_path = "/content/gdrive/MyDrive/TMP/Pics/output/"
 shared.gradio_root.launch(
     inbrowser=args_manager.args.in_browser,
     server_name=args_manager.args.listen,
     server_port=args_manager.args.port,
     share=args_manager.args.share,
     auth=check_auth if args_manager.args.share and auth_enabled else None,
-    blocked_paths=[constants.AUTH_FILENAME]
+    blocked_paths=[constants.AUTH_FILENAME],
+    allowed_paths=[custom_output_path]
 )
