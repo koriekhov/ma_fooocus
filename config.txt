@@ -1,4 +1,5 @@
 {
+	"default_model": "/kaggle/input/juggernautv8/other/v1/1/juggernautXL_version6Rundiffusion.safetensors",
     "default_cfg_scale": 3.0,
     "default_sample_sharpness": 2.0,
     "default_styles": [
